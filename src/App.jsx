@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import CharacterDeatil from "./components/CharacterDeatil";
+import CharacterDetail from "./components/CharacterDetail";
 import CharacterList from "./components/CharacterList";
 import Navbar, {
   Favourites,
@@ -190,7 +190,7 @@ function App() {
           nextSearchAvailable={nextSearchAvailable}
           query={query}
         />
-        <CharacterDeatil
+        <CharacterDetail
           addedToFavorites={addedToFavorites}
           selectedCharacter={selectedCharacter}
           handleFavorites={handleFavorites}

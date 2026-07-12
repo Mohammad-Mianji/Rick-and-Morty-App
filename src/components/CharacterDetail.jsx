@@ -4,7 +4,7 @@ import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
 import { IoIosHeart, IoIosHeartDislike } from "react-icons/io";
 
-function CharacterDeatil({
+function CharacterDetail({
   selectedCharacter,
   handleFavorites,
   handleRemoveFavorite,
@@ -67,7 +67,7 @@ function CharacterDeatil({
   );
 }
 
-export default CharacterDeatil;
+export default CharacterDetail;
 
 function CharacterDetailInfo({
   character,
